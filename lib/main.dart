@@ -10,7 +10,6 @@ import 'services/notification_service.dart';
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await initializeDateFormatting('uk', null);
-  await NotificationService().initialize();
   runApp(const WeatherAssistantApp());
 }
 
